@@ -28,10 +28,10 @@
 ==============================================================================
 ## Criando migrations com sequelize
 
- $ npx sequelize migration:create --name=alunos <!--Cria o migrations -->
- $ npx sequelize db:migrate <!--Cria e atualiza a migração para o mysql -->
- $ npx sequelize db:migrate:undo <!--Desfazer a migração -->
- $ npx sequelize migration:create --name=mudar-email-aluno-unique <!-- Adicionando unique no email do Aluno -->
+ $ npx sequelize migration:create --name=alunos <!--Cria o migrations --><br />
+ $ npx sequelize db:migrate <!--Cria e atualiza a migração para o mysql --><br />
+ $ npx sequelize db:migrate:undo <!--Desfazer a migração --><br />
+ $ npx sequelize migration:create --name=mudar-email-aluno-unique <!-- Adicionando unique no email do Aluno --><br />
 
 ## Criando seed's com sequelize
  $ npx sequelize seed:generate --name criar-usuarios <!--Cria o Seeds --> <br />
