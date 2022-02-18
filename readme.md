@@ -13,17 +13,17 @@
 
 ## Instalações ultilizada na aplicação
 
- $ npm init -y
- $ npx eslint --init
- $ npm i nodemon sucrase --save-dev
- $ npm i express
- $ npm i dotenv
- $ npm i sequelize mariadb
- $ npm i -D sequelize-cli
- $ npm i bcryptjs
- $ npm i jsonwebtoken
- $ npm i multer
- $ npm i cors helmet
+ $ npm init -y <br />
+ $ npx eslint --init <br />
+ $ npm i nodemon sucrase --save-dev <br />
+ $ npm i express <br />
+ $ npm i dotenv <br />
+ $ npm i sequelize mariadb <br />
+ $ npm i -D sequelize-cli <br />
+ $ npm i bcryptjs <br />
+ $ npm i jsonwebtoken <br />
+ $ npm i multer <br />
+ $ npm i cors helmet <br />
 
 ==============================================================================
 ## Criando migrations com sequelize
