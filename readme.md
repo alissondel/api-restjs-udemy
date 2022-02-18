@@ -34,8 +34,8 @@
  $ npx sequelize migration:create --name=mudar-email-aluno-unique <!-- Adicionando unique no email do Aluno --><br />
 
 ## Criando seed's com sequelize
- $ npx sequelize seed:generate --name criar-usuarios <!--Cria o Seeds --> <br />
- $ npx sequelize db:seed:all <!-- Criando base de dados e enviando pro mysql-->
+ #### $ npx sequelize seed:generate --name criar-usuarios <!--Cria o Seeds --> <br />
+ #### $ npx sequelize db:seed:all <!-- Criando base de dados e enviando pro mysql-->
 ==============================================================================
 
 ### 🚀 Tecnologias 🚀
