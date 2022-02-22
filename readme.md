@@ -8,34 +8,31 @@
 
 ### O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 
-### Inciar Servidor
- $ npm run dev
-
 ## Instalações ultilizada na aplicação
 
- $ npm init -y
- $ npx eslint --init
- $ npm i nodemon sucrase --save-dev
- $ npm i express
- $ npm i dotenv
- $ npm i sequelize mariadb
- $ npm i -D sequelize-cli
- $ npm i bcryptjs
- $ npm i jsonwebtoken
- $ npm i multer
- $ npm i cors helmet
+ $ npm init -y <br />
+ $ npx eslint --init <br />
+ $ npm i nodemon sucrase --save-dev <br />
+ $ npm i express <br />
+ $ npm i dotenv <br />
+ $ npm i sequelize mariadb <br />
+ $ npm i -D sequelize-cli <br />
+ $ npm i bcryptjs <br />
+ $ npm i jsonwebtoken <br />
+ $ npm i multer <br />
+ $ npm i cors helmet <br />
 
 ==============================================================================
 ## Criando migrations com sequelize
 
- $ npx sequelize migration:create --name=alunos <!--Cria o migrations -->
- $ npx sequelize db:migrate <!--Cria e atualiza a migração para o mysql -->
- $ npx sequelize db:migrate:undo <!--Desfazer a migração -->
- $ npx sequelize migration:create --name=mudar-email-aluno-unique <!-- Adicionando unique no email do Aluno -->
+ $ npx sequelize migration:create --name=alunos <!--Cria o migrations --><br />
+ $ npx sequelize db:migrate <!--Cria e atualiza a migração para o mysql --><br />
+ $ npx sequelize db:migrate:undo <!--Desfazer a migração --><br />
+ $ npx sequelize migration:create --name=mudar-email-aluno-unique <!-- Adicionando unique no email do Aluno --><br />
 
 ## Criando seed's com sequelize
- $ npx sequelize seed:generate --name criar-usuarios <!--Cria o Seeds -->
- $ npx sequelize db:seed:all <!-- Criando base de dados e enviando pro mysql-->
+ #### $ npx sequelize seed:generate --name criar-usuarios <!--Cria o Seeds --> <br />
+ #### $ npx sequelize db:seed:all <!-- Criando base de dados e enviando pro mysql-->
 ==============================================================================
 
 ### 🚀 Tecnologias 🚀
